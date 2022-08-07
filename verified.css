@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    background-image:linear-gradient(180deg, rgba(87, 115, 134, 0.9) 0%, rgba(250, 250, 250, 0.699) 100%);
+    height: 900px;
+    padding: 0px;
+}
+.image{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
