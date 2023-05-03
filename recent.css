@@ -7,7 +7,7 @@
 }
 .image{
     width: 140px;
-    height: 160px;
+    height: fit-content;
     padding: 0;
     margin: 0;
 }
@@ -19,7 +19,6 @@ h2{
     font-weight: 600;
     font-size: 17px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-bottom: -10px;
 
 }
 h4{
@@ -32,8 +31,7 @@ hr{
 .article1{
     border-radius: 10px;
     border: 2px solid rgb(216, 208, 208);
-    margin-top: 30px;
-    height: 17rem;
+    height: fit-content;
     margin-bottom: 0;
 }
 .article1 img{
@@ -44,7 +42,6 @@ hr{
 
 
 .article2{
-    margin-top: 40px;
     border-radius: 10px;
     border: 2px solid rgb(216, 208, 208);
     padding-bottom: 0;
@@ -56,7 +53,7 @@ hr{
 }
 .image1{
     width: 140px;
-    height: 130px;
+    height: fit-content;
     padding: 0;
 }
 .article2 img{
@@ -75,7 +72,6 @@ p{
     border: 2px solid rgb(216, 208, 208);
     padding-bottom: 0;
     margin-bottom: 0;
-    margin-top: 10px;
 }
 .article3 img{
     width: 100%;
@@ -87,7 +83,6 @@ p{
     border: 2px solid rgb(216, 208, 208);
     padding-bottom: 0;
     margin-bottom: 0;
-    margin-top: 10px;
 }
 .article4 img{
     width: 100%;
@@ -99,11 +94,16 @@ p{
     border: 2px solid rgb(216, 208, 208);
     padding-bottom: 0;
     margin-bottom: 0;
-    margin-top: 10px;
 }
 .article5 img{
     width: 100%;
     height: 100%;
     margin-bottom: 0;
+}
+
+@media screen and (max-width:768px){
+    .image, .image1{
+        width:100%; 
+    }
 }
 

@@ -1,10 +1,12 @@
-*{
+*, a{
     padding: 0;
     margin: 0;
+    text-decoration:none;
 }
 .banner{
     background-image:linear-gradient(180deg, rgba(35, 59, 76, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
-    height: 900px;
+    min-height: 100vh;
+    min-width:100vw;
     padding: 0px;
 
 }
@@ -15,138 +17,126 @@
 
 #myRange{
     height: 50px;
-    width: 300px;
+    width: 100%;
     color: rgb(226, 10, 46);
     background-color: rgb(212, 59, 12);
-    margin-left: 30px;
-    margin-top: 30px;
 }
 .hr{
     background-color: white;
     padding: 2.5px;
     border-radius: 20px;
     border: 2px solid rgb(99, 88, 88);
-    width: 330px;
-    margin-left: 15px;
-    margin-top: 20px;
+    width: 100%;
 }
 .slidertext{
+    width:100%;
     padding: 5px 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .slide1{
-    height: 15px;
+    display:block;
+    margin:0 auto;
+    height: 16px;
     width: 2px;
     background-color: rgb(145, 137, 137);
-    margin-left: 4rem;
-    position: relative;
-    top: -7px;
 }
 .slide2{
-    height: 15px;
+    display:block;
+    margin:0 auto;
+    height: 16px;
     width: 2px;
     background-color: rgb(167, 162, 162);
-    margin-left: 27rem;
-    position: relative;
-    top: -20px;
+
 }
 .text1{
+    display:block;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 16px;
     padding-left: 10px;
-    margin-top: -18px;
-    position: relative;
+    margin-top: 4px
 
 }
 .text2{
-    float: right;
-    margin-top: -26px;
+    display:block;
+    margin-top: 4px;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 16px;
     padding-right: 20px;
-    position: relative;
 }
 .slidertext2{
+    width:100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 2.5rem;
-    margin-top: -40px;
+    position:relative;
 }
 .text3{
     float: left;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 12px;
     color: rgb(187, 73, 73);
-    padding: 0px 20px;
+    padding: 0px 0px;
   
 }
 .text4{
     float: left;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 12px;
     color: rgb(133, 118, 118);
-    padding: 0px 20px;
+    padding: 0px 0px;
 }
 .text5{
     float: left;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 12px;
     color: rgb(238, 20, 238);
-    padding: 0px 20px;
+    padding: 0px 0px;
 }
 .text6{
     float: left;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 12px;
     color: rgb(69, 139, 69);
-    padding: 0px 28px;
+    padding: 0;
 }
 .slide3{
     height: 15px;
     width: 2px;
     background-color: rgb(167, 162, 162);
-    margin-left: 5.5rem;
-    position: relative;
-    top: -2px;
+    margin:4px auto;
 }
 .slide4{
     height: 15px;
     width: 2px;
     background-color: rgb(167, 162, 162);
-    margin-left: 12.5rem;
-    position: relative;
-    top: -17px;
+    margin:4px auto;
     
 }
 .slide5{
     height: 15px;
     width: 2px;
     background-color: rgb(167, 162, 162);
-    margin-left: 20rem;
-    position: relative;
-    top: -32px;
+    margin:4px auto;
 }
 .slide6{
     height: 15px;
     width: 2px;
     background-color: rgb(167, 162, 162);
-    margin-left: 28.5rem;
-    position: relative;
-    top: -47px;
+    margin:4px auto;
 }
-.addimage{
+.addimage a{
     text-align: center;
     background-color: #233B4C;
     border-radius: 10px;
     padding: 12px 39px;
     display: inline-block;
     margin-left: 30%;
-    margin-top:50px;
+    margin-top:75px;
     margin-bottom: 20px;
-}
-.addimage a{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.addimage {
+    width:100%;
 }
 .image{
     width: 380px;
@@ -162,35 +152,65 @@ img{
     margin: 0px;
 }
 .verified{
+    display:inline-block;
     width: 20px;
     height: 20px;
 }
 h5 img{
     height: 100%;
     width: 100%;
-    position: relative;
-    left: 33rem;
-    top: -18px;
 }
 h5{
     text-align: end;
     padding-right: 5.5rem;
     margin-top: -50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 24px;
     font-weight: 600;
 }
-.post{
+.post a{
     text-align: center;
     background-color: #233B4C;
     border-radius: 10px;
     padding: 12px 66px;;
     display: inline-block;
-    margin-left: 27%;
-    margin-top:23px;
-}
-.post a{
+    margin-top:75px;
     color: white;
-    font-size: 23px;
+    font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.post {
+   width:100%; 
+   text-align: right;
+}
+section > div{
+    width:100%;
+}
+
+.slidertext2 > div{
+    height:59px;
+    display:inline-block;
+    width:max-content;
+    margin:0 auto;
+    position:absolute;
+    top:100%;
+    z-index:0;
+
+}
+@media screen and (max-width:576px){
+    .text1,.text2{
+        font-size:10px;
+    }
+
+    .text3,.text4,.text5,.text6{
+        font-size:8px;
+    }
+    h5{
+        font-size:20px;
+    }
+}
+@media screen and (max-width:420px){
+    .post a{
+        width:100%;
+    }
 }

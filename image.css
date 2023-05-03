@@ -4,21 +4,19 @@
 }
 .banner{
     background-image: linear-gradient(167.91deg, rgba(35, 59, 76, 0.9) -1.02%, rgba(255, 255, 255, 0.9) 104.5%);
-    height: 900px;
+    min-height: 100vh;
     padding: 0px;
 
 }
 .slidecontainer{
-    
-    
+    width:100%; 
 }
 
 #myRange{
     height: 50px;
-    width: 300px;
+    width: 80%;
     color: rgb(226, 10, 46);
     background-color: rgb(212, 59, 12);
-    padding: 20px;
     margin-left: 30px;
 }
 .hr{
@@ -31,50 +29,50 @@
     margin-top: 20px;
 }
 .slidertext{
-    padding: 10px 20px;
+    width:100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     
 }
 .text1{
+    float:left;
     font-weight: 700;
     font-size: 15px;
-    padding-left: 10px;
 
 }
 .text2{
     float: right;
-    margin-top: -30px;
     font-weight: 700;
     font-size: 15px;
-    padding-right: 60px;
 }
 .addimage{
+    margin-top:50px;
+}
+.addimage a{
+    text-decoration:none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     background-color: #233B4C;
     border-radius: 10px;
     padding: 12px 39px;
     display: inline-block;
-    margin-left: 30%;
-    margin-top:50px;
-    margin-bottom: 20px;
-}
-.addimage a{
-    color: white;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .image{
-    width: 380px;
-    height: 400px;
-    padding:10px 20px;
-    margin-right: 0px;
-    
+    width: 100%;
+    height: auto;
 }
 img{
-    height: 100%;
-    
-    width: 100%;
-    margin-top: 40px;
-    margin: 0px;
+    height:auto;
+    width: 80%;
+}
+@media screen and (max-width: 368px){
+    .text1, .text2,  .addimage a{
+        font-size:10px;
+    }
+    .addimage a{
+        width:100%;
+        padding: 12px auto;
+    }
 }
